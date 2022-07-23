@@ -1,0 +1,2 @@
+SELECT 
+    CONVERT(TIME, GETDATE()) AS CurrentTime;

@@ -1,0 +1,31 @@
+-- 1
+SELECT TOP 30 PERCENT WITH TIES
+	Id, FullName, Gpa
+FROM 
+	Student
+ORDER BY
+	Gpa DESC
+/*
+-- 2
+SELECT TOP 3 WITH TIES *
+FROM 
+	Student
+ORDER BY
+	Gpa DESC
+
+
+-- 3
+SELECT TOP 20 PERCENT *
+FROM 
+	Student
+ORDER BY
+	Gpa ASC
+
+
+-- 4
+SELECT TOP 20 PERCENT WITH TIES *
+FROM 
+	Student
+ORDER BY
+	Gpa DESC
+*/
